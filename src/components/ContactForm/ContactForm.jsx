@@ -16,13 +16,13 @@ const ContactForm = () => {
     event.preventDefault();
     const form = event.currentTarget;
     const name = form.elements.name.value;
-    const phone = form.elements.number.value;
+    const number = form.elements.number.value;
     const contactExist = contacts.some(contact => contact.name === name);
     if (contactExist) {
       alert('Contact already exist!');
       form.reset();
     } else {
-      dispatch(addContacts({ name, phone }));
+      dispatch(addContacts({ name, number }));
       form.reset();
     }
   };
