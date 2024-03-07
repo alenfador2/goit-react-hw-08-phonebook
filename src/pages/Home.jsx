@@ -4,7 +4,9 @@ import { Box } from '@mui/material';
 const Home = () => {
   return (
     <>
-      <Helmet>Home</Helmet>
+      <Helmet>
+        <title>Home</title>
+      </Helmet>
       <Box className="home-container">
         <img
           className="home-img"

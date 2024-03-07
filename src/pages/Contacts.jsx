@@ -13,7 +13,9 @@ const Contacts = () => {
   const error = useSelector(selectError);
   return (
     <>
-      <Helmet>Contacts</Helmet>
+      <Helmet>
+        <title>Contacts</title>
+      </Helmet>
       {isLoading && <Loader />}
       <div className="main-div">
         {error && <Error />}

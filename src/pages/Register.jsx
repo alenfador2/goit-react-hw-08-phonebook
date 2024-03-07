@@ -4,7 +4,9 @@ import { Helmet } from 'react-helmet';
 const Register = () => {
   return (
     <>
-      <Helmet>Registration</Helmet>
+      <Helmet>
+        <title>Registration</title>
+      </Helmet>
       <RegisterForm />
     </>
   );
