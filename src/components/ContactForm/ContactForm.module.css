@@ -1,7 +1,8 @@
 .contact_container {
   width: 300px;
-  margin-inline: 30px auto;
+  margin-inline: auto;
   margin-top: 15px;
+  margin-bottom: 40px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -27,12 +28,13 @@
 }
 
 .add_button {
-  width: 80px;
-  height: 40px;
+  width: 120px;
+  height: 60px;
   background-color: aquamarine;
   margin-inline: auto;
-  border-radius: 999999px;
+  border-radius: 5px;
   border: none;
+  font-size: 10px;
   box-shadow: 11px 13px 24px -6px rgba(66, 68, 90, 1);
   transition: all 0.3s ease-in-out;
 }

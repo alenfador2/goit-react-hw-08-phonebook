@@ -32,7 +32,7 @@ const LoginForm = () => {
           variant="outlined"
           name="password"
         />
-        <Button variant="contained" type="submit">
+        <Button variant="contained" type="submit" className={css.login_button}>
           Login
         </Button>
       </form>

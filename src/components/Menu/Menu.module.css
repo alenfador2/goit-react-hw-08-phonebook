@@ -1,0 +1,10 @@
+.menu_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 80px;
+  background-color: darkgreen;
+  height: 100px;
+  box-shadow: 2px 8px 16px -1px rgba(66, 68, 90, 1);
+}

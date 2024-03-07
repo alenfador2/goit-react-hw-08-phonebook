@@ -17,9 +17,9 @@ const Contacts = () => {
       {isLoading && <Loader />}
       <div className="main-div">
         {error && <Error />}
-        <h1>Phonebook</h1>
+        <h1 className="phonebook-header">Phonebook</h1>
         <ContactForm />
-        <h2>Contacts</h2>
+        <h2 className="phonebook-second-header">Contacts</h2>
         <Filter />
         <ContactList />
       </div>

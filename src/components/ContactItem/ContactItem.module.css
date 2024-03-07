@@ -2,7 +2,11 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 5px;
+  justify-content: center;
+  gap: 10px;
+  border-bottom: 1px solid black;
+  width: 300px;
+  margin-inline: auto;
 }
 .item_span {
   font-family: Arial, Helvetica, sans-serif;
@@ -11,12 +15,14 @@
 .item_button {
   margin: 10px;
   height: 30px;
-  border-radius: 999999px;
+  border-radius: 4px;
   border: none;
   box-shadow: 11px 13px 24px -10px rgba(66, 68, 90, 1);
   transition: all 0.2s ease-in-out;
-  background-color: chocolate;
+  background-color: red;
+  color: white;
 }
 .item_button:hover {
   transform: scale(1.05);
+  color: black;
 }

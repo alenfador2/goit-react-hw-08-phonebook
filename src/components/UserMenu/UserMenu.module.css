@@ -1,0 +1,19 @@
+.usermenu_box {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.user_menu_button {
+  background-color: black;
+  height: 40px;
+}
+
+.user_menu_button:hover {
+  background-color: red;
+  color: white;
+}
+.username {
+  color: white;
+}

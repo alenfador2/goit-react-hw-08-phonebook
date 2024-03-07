@@ -42,8 +42,12 @@ const RegisterForm = () => {
           name="password"
           type="password"
         />
-        <Button variant="contained" type="submit">
-          Contained
+        <Button
+          variant="contained"
+          type="submit"
+          className={css.register_button}
+        >
+          Register
         </Button>
       </form>
     </>

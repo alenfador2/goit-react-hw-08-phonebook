@@ -8,6 +8,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
+  background-image: url('https://pixabay.com/get/g11d37d949e365aca1ec25940810d18415a9b4a655fc5927f65e68383f82693a9ed946ef5fb9aa1f5ffad82f03d3d27d9.jpg');
+  background-size: cover;
 }
 
 code {
@@ -21,8 +23,35 @@ code {
   width: 450px;
   margin-inline: auto;
   margin-top: 40px;
-  background-color: beige;
+  margin-bottom: 40px;
+  background-color: whitesmoke;
   padding: 20px;
   border-radius: 25px;
   box-shadow: 11px 13px 24px -6px rgba(66, 68, 90, 1);
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  background-color: white;
+  padding-block: 30px;
+  border-radius: 20px;
+  width: 400px;
+  margin-inline: auto;
+  box-shadow: 11px 13px 24px -6px rgba(66, 68, 90, 1);
+}
+.home-img {
+  width: 200px;
+}
+.phonebook-header {
+  margin-inline: auto;
+}
+.phonebook-second-header {
+  margin-left: 70px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+ul {
+  padding-inline-start: 0;
 }
