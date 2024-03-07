@@ -12,7 +12,7 @@ const Filter = () => {
     <>
       <TextField
         label="Write name here"
-        variant="standard"
+        variant="outlined"
         type="text"
         id="filter"
         name="filter"
