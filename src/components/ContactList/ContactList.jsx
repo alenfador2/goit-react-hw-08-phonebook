@@ -27,7 +27,7 @@ const ContactList = () => {
               key={filteredContact.id}
               id={filteredContact.id}
               name={filteredContact.name}
-              number={filteredContact.phone}
+              number={filteredContact.number}
             />
           );
         })}

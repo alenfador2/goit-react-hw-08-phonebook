@@ -6,15 +6,20 @@ import { Button, Box } from '@mui/material';
 
 const ContactItem = ({ id, name, number }) => {
   const dispatch = useDispatch();
+  console.log(id, name, number);
   const onDelete = id => {
     dispatch(deleteContacts(id));
   };
 
   return (
     <>
-      <Box className={css.span_container}>
-        <span className={css.item_span}>{name}:</span>
-        <span className={css.item_span}>{number}</span>
+      <Box className={css.item_container}>
+        <Box className={css.span_container}>
+          <span className={css.item_span}>
+            <b>{name}</b>
+          </span>
+          <span className={css.item_span}>{number}</span>
+        </Box>
         <Button
           className={css.item_button}
           type="button"
