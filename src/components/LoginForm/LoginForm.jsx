@@ -31,6 +31,7 @@ const LoginForm = () => {
           label="Please enter your password"
           variant="outlined"
           name="password"
+          type="password"
         />
         <Button variant="contained" type="submit" className={css.login_button}>
           Login
